@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let index = 0;
 
     // Create dots
-    for (let i = 0; i < totalSlides; i++) {
+    for (let i = 0; i < totalSlides-1; i++) {
         const dot = document.createElement('span');
         dot.classList.add('dot');
         if (i === 0) dot.classList.add('active');
